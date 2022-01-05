@@ -4,7 +4,8 @@ body {
 p {
   text-align: justify;
 }
-.wellcome-part {
+.wellcome-part,
+.missoin-part {
   display: flex;
   justify-content: center;
 }
@@ -16,12 +17,8 @@ h1 {
   width: 40%;
   padding: 0 5%;
 }
-h2 {
-  line-height: 20px;
-}
 .name-color {
   color: orangered;
-  font-size: 30px;
 }
 .border-left {
   border-left: 3px solid orangered;
@@ -29,6 +26,10 @@ h2 {
 }
 .half-width img {
   width: 70%;
+}
+button {
+  border: none;
+  margin: 20px 0;
 }
 .button {
   text-decoration: none;
@@ -41,4 +42,22 @@ h2 {
 }
 .button:hover {
   background-color: orange;
+}
+.my-mission {
+  text-align: center;
+  width: 100%;
+  margin: 50px 0;
+}
+.three-part-area {
+  width: 25%;
+  margin-left: 3%;
+  padding: 2% 2%;
+}
+.three-part-area img {
+  width: 50%;
+}
+.last-part {
+  background-color: palegoldenrod;
+}
+h3 {
 }
