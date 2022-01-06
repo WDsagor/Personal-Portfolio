@@ -5,9 +5,11 @@ p {
   text-align: justify;
 }
 .wellcome-part,
-.missoin-part {
+.missoin-part,
+.limit-part {
   display: flex;
   justify-content: center;
+  margin: 60px 0;
 }
 h1 {
   font-size: 50px;
@@ -24,7 +26,8 @@ span {
   border-left: 3px solid orangered;
   padding-left: 10px;
 }
-.half-width img {
+.half-width img,
+.thirty-parsent img {
   width: 70%;
 }
 button {
@@ -59,5 +62,12 @@ button {
 .last-part {
   background-color: palegoldenrod;
 }
-h3 {
+h2 {
+  font-size: 30px;
+}
+.thirty-parsent {
+  width: 40%;
+}
+.sventy-parsent {
+  width: 50%;
 }
