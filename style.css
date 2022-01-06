@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #04041b;
 }
 p {
   text-align: justify;
@@ -7,7 +8,8 @@ p {
 .wellcome-part,
 .missoin-part,
 .limit-part,
-.community-part {
+.community-part,
+.omicrom-part {
   display: flex;
   justify-content: center;
   margin: 60px 0;
@@ -47,7 +49,8 @@ button {
 .button:hover {
   background-color: orange;
 }
-.my-mission {
+.my-mission,
+.covid-variants {
   text-align: center;
   width: 100%;
   margin: 50px 0;
@@ -74,4 +77,28 @@ h2 {
 }
 .left-padding img {
   padding-left: 30%;
+}
+.omicron img {
+  width: 100%;
+}
+.variant {
+  text-align: left;
+}
+.variant h1 {
+  line-height: normal;
+}
+h3 {
+  line-height: 40px;
+}
+footer {
+  background-color: black;
+  padding: 50px 0;
+}
+.footer-content {
+  color: white;
+  text-align: center;
+}
+footer p {
+  color: white;
+  text-align: center;
 }
