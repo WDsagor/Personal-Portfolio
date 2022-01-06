@@ -17,7 +17,7 @@ h1 {
   width: 40%;
   padding: 0 5%;
 }
-.name-color {
+span {
   color: orangered;
 }
 .border-left {
