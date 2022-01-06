@@ -6,7 +6,8 @@ p {
 }
 .wellcome-part,
 .missoin-part,
-.limit-part {
+.limit-part,
+.community-part {
   display: flex;
   justify-content: center;
   margin: 60px 0;
@@ -70,4 +71,7 @@ h2 {
 }
 .sventy-parsent {
   width: 50%;
+}
+.left-padding img {
+  padding-left: 30%;
 }
